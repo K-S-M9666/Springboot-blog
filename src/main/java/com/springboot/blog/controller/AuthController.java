@@ -13,7 +13,7 @@ import com.springboot.blog.payload.RegisterDto;
 import com.springboot.blog.service.AuthService;
 
 @RestController
-@RequestMapping("/api/auth")
+@RequestMapping("/api/v1/auth")
 public class AuthController {
 
 	private AuthService authService;
